@@ -1,0 +1,36 @@
+-- 
+-- Roll No: <29>
+-- Name: <Mumthaz Farsana AK>
+-- Program: <Assignment 1>
+-- 
+
+
+--
+-- Table structure for table <student>
+--create table student1(rollno char(5),sname varchar(15) not null,address varchar(15),age int not null,primary key(rollno));
+
+
+
+
+--Table structure for table <faculty>
+
+create table faculty1(fno char(5),fname varchar(15) not null,specialisation varchar(15),primary key(fno));
+
+
+--Table structure for table <course>
+
+create table course1(cno char(5),cname varchar(15) not null,sem int not null,fees float not null,fno varchar(5),foreign key(fno) references faculty(fno),primary key(cno));
+
+
+-- Dumping data for table <table_name>
+--
+
+-- --------insert/update statement commands----------- # This line may be removed in the actcual file
+
+--
+-- SQl Query Statements
+--
+
+-- -----SQL query statments preceeded by the its question-------- # This line may be removed in the actual file
+-- -----Question number should be commented---------------#This line may be removed in the actual file
+
